@@ -13,7 +13,9 @@
 (setq scroll-step 1) ;; keyboard scroll one line at a time
 (setq scroll-conservatively 10000)
 (setq auto-window-vscroll nil)
- 
+
+(c-set-offset 'inclass '++)
+
 ;;(setq minibuffer-max-depth nil)
 
 ;;(setq-default fill-column 90)

@@ -99,6 +99,9 @@ PATH=$DOTFILES/bin:$PATH
 export PATH
 
 # Source all files in "source"
+
+source ~/.dotfiles/source/50_history.sh
+
 function src() {
   local file
   if [[ "$1" ]]; then
@@ -116,3 +119,5 @@ function dotfiles() {
 }
 
 #src
+
+. /home/andreypz/workspace/root/build24Feb2017/bin/thisroot.sh
